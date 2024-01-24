@@ -37,6 +37,10 @@ namespace AdventOfCode
                     Jour4 jour4 = new Jour4();
                     jour4.Exec();
                     break;
+                case "5":
+                    Jour5 jour5 = new Jour5();
+                    jour5.Exec();
+                    break;
                 default:
                     Console.WriteLine("Jour pas encore disponible");
                     break;
